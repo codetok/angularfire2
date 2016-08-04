@@ -41,7 +41,7 @@ import {
 export class AngularFire {
   constructor(
     @Inject(FirebaseConfig) private fbUrl:string,
-    public auth: AngularFireAuth,
+    //public auth: AngularFireAuth,
     public database: AngularFireDatabase) {}
 }
 
